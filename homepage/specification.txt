@@ -1,0 +1,40 @@
+HTML TAGS:
+1- <meta>
+2- <link>
+3- <script>
+4- <h1>
+5- <p>
+6- <a>
+7- <button>
+8- <div>
+9- <ul>
+10- <li>
+11- <img>
+
+5 CSS SELECTORS:
+1- h1
+2- body
+3- #sixseven
+4- html
+5- actual67
+
+CSS PROPERTIES:
+1- font-style
+2- margin
+3- padding
+4- scroll-behavior
+5- text-decoration-line
+6- text-align
+7- background-color
+8- font-size
+9- font-family
+10- font-weight
+and more...
+
+USE OF BOOTSTRAP:
+I integrated Bootstrap into my code to create the buttons and a dropdown. I didn't think I could have implemented the buttons on my own, looking quality.
+
+USE OF JAVASCRIPT:
+I used Javascript just for it to tell me the exact time and date every time a site opens (basically an alert).
+
+

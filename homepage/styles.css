@@ -1,0 +1,32 @@
+h1 {
+    font-family: 'Arial', monospace;
+    font-size: 35px;
+    font-style: 'italic';
+    background-color: Tomato;
+    color: white;
+  }
+
+body {
+    background-color: #EDE8D0;
+    margin: 20px;
+    padding: 5px;
+}
+
+#sixseven {
+  text-align: center;
+  color: darkblue;
+  background-color: DodgerBlue;
+  text-decoration-line: overline underline;
+  font-weight: bold;
+}
+html
+{ 
+  scroll-behavior: smooth;
+}
+#actual67
+{
+  color: #eed9c4;
+}
+
+
+
