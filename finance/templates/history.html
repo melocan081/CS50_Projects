@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <h1>History</h1>
+
+    <table class = "table table-striped">
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Symbol</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>Total</th>
+                <th>When</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for transkasiyon in transkasiyons %}
+                <tr>
+                    <td>{{ transkasiyon.type }}</td>
+                    <td>{{ transkasiyon.symbol }}</td>
+                    <td>{{ transkasiyon.shares }}</td>
+                    <td>{{ (transkasiyon.price) | usd }}</td>
+                    <td>{{ (transkasiyon.price * transkasiyon.shares) | usd }}</td>
+                    <td>{{ transkasiyon.timestamp }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
